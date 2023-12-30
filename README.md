@@ -2,16 +2,17 @@
 
 Purpose: Simulate a bank through the usee of event-driven processing using the use of queues.
 
-Implement the event-driven simulation of a bank. 
+1). Implement the event-driven simulation of a bank. 
 
-A queue of arrival events will represent the line of customers in the bank. 
+2). A queue of arrival events will represent the line of customers in the bank. 
 
-Maintain the arrival events and departure events in a priority queue, sorted by the time of event. Use a link-based implementation for the event list.
+3). Maintain the arrival events and departure events in a priority queue, sorted by the time of event. Use a link-based implementation for the event list.
 
-The input is a text file of arrival and transaction times. Each line of the file contains the arrival time and required transaction time for a customer. The arrival times are ordered by increasing time.
+4). The input is a text file of arrival and transaction times. Each line of the file contains the arrival time and required transaction time for a customer. The arrival times are ordered by increasing time.
 Your program must count customers and keep track of their cumulative waiting time. These statistics are sufficient to compute the average waiting time after the last event has been processed.
 
-Output
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+Output:
 Display a trace of the events executed and a summary of the computed statistic (total number of the arrivals and average time spent waiting in line). 
 
 For example, if an input file contains the following customer samples:
@@ -19,6 +20,7 @@ For example, if an input file contains the following customer samples:
 Arrival time
 
 Transaction time
+
 1
 
 5
@@ -60,6 +62,7 @@ Transaction time
 3
 
 then the following output should be produced by your program:
+
 Processing an arrival event at time: 1
 
 Processing an arrival event at time: 2
