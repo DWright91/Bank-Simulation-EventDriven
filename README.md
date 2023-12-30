@@ -15,51 +15,93 @@ Output
 Display a trace of the events executed and a summary of the computed statistic (total number of the arrivals and average time spent waiting in line). 
 
 For example, if an input file contains the following customer samples:
+
 Arrival time
+
 Transaction time
 1
+
 5
+
 2
+
 5
+
 4
+
 5
+
 20
+
 5
+
 22
+
 5
+
 24
+
 5
+
 26
+
 5
+
 28
+
 5
+
 30
+
 5
+
 88
+
 3
+
 then the following output should be produced by your program:
 Processing an arrival event at time: 1
+
 Processing an arrival event at time: 2
+
 Processing an arrival event at time: 4
+
 Processing a departure event at time: 6
-CSCI 301 Computer Science II Spring 2016
+
 Processing a departure event at time: 11
+
 Processing a departure event at time: 16
+
 Processing an arrival event at time: 20
+
 Processing an arrival event at time: 22
+
 Processing an arrival event at time: 24
+
 Processing a departure event at time: 25
+
 Processing an arrival event at time: 26
+
 Processing an arrival event at time: 28
+
 Processing an arrival event at time: 30
+
 Processing a departure event at time: 30
+
 Processing a departure event at time: 35
+
 Processing a departure event at time: 40
+
 Processing a departure event at time: 45
+
 Processing a departure event at time: 50
+
 Processing an arrival event at time: 88
+
 Processing a departure event at time: 91
+
 Simulation ends.
+
 Final Statistics:
 Total number of customers processed: 10
 Average amount of time spent waiting: 5.6
