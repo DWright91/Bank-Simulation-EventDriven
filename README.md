@@ -106,5 +106,7 @@ Processing a departure event at time: 91
 Simulation ends.
 
 Final Statistics:
+
 Total number of customers processed: 10
+
 Average amount of time spent waiting: 5.6
