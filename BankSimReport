@@ -1,13 +1,29 @@
 #BankSimReport
 
 Design Document
-- This program uses two queues to simulate a bank link waiting on one teller. Also known as the event-driven simulation will process the data from an input file in order to simulate the bank, than upon the first customer it will calculate a transaction time which will decide when the next event will occur. The waiting time is calculated by these arrival and transaction times. This program uses the departure times to signal when the next person within the bank line can come to the teller indicating the teller is available for processing. 
+- This program uses two queues to simulate a bank link waiting on one teller. Also known as the event-driven simulation will process the data from an input file in order to simulate the bank, than upon the first customer
+
+it will calculate a transaction time which will decide when the next event will occur. The waiting time is calculated by these arrival and transaction times. This program uses the departure times to signal when the next 
+
+person within the bank line can come to the teller indicating the teller is available for processing. 
 
 User Document 
--To use this program you need to go into the Project_6 directory and compile the mainBankSimulation.cpp file. Once this is accomplished, you can run the program. Within its directory the files included include the mainBankSimulation.cpp, Event implementation file, Event specification file, the EventData.txt file which includes each customers data in the form of arrival times and transaction times, LinkedSortedList implementation file, LinkedSortedList specification file, SL_PriorityQueue implementation file, SL_PriorityQueue specification file, PriorityQueueInterface specification file, aswell as the Node implementation and specification files, and the PrecondViolatedExcep implementation and specification file. Starting the program will run through these arrival and departure times in order simulating a bank line in front of a single teller, then stating the number of customers and the average time spent waiting in line.
+-To use this program you need to go into the Project_6 directory and compile the mainBankSimulation.cpp file. Once this is accomplished, you can run the program. Within its directory the files included include the 
+
+mainBankSimulation.cpp, Event implementation file, Event specification file, the EventData.txt file which includes each customers data in the form of arrival times and transaction times, LinkedSortedList implementation 
+
+file, LinkedSortedList specification file, SL_PriorityQueue implementation file, SL_PriorityQueue specification file, PriorityQueueInterface specification file, aswell as the Node implementation and specification files, 
+
+and the PrecondViolatedExcep implementation and specification file. Starting the program will run through these arrival and departure times in order simulating a bank line in front of a single teller, then stating the 
+
+number of customers and the average time spent waiting in line.
 
 Summary
--This program simulates a bank line of a teller at a bank, a real world simulation with the use of a priority queue to demonstrate the value priority of first in first out and last in last out event-driven simulation. This program could be expanded in many ways, for one you could make a class for teller if there was more than one teller or for floors of a bank like departments. The use of a priority queue in real world simulations can be seen almost everywhere we go, it could be different than just an event-driven simulation, for example gas prices ect. 
+-This program simulates a bank line of a teller at a bank, a real world simulation with the use of a priority queue to demonstrate the value priority of first in first out and last in last out event-driven simulation. 
+
+This program could be expanded in many ways, for one you could make a class for teller if there was more than one teller or for floors of a bank like departments. The use of a priority queue in real world simulations can 
+
+be seen almost everywhere we go, it could be different than just an event-driven simulation, for example gas prices ect. 
 
 --------------------------------------------------------------------------------------------------------------------------------------------
 Output:
