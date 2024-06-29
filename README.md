@@ -1,6 +1,6 @@
 # Bank-Simulation-EventDriven
 
-Purpose: Simulate a bank through the usee of event-driven processing using the use of queues.
+Purpose: Simulate a bank through the use of event-driven processing using the use of queues.
 
 1). Implement the event-driven simulation of a bank. 
 
